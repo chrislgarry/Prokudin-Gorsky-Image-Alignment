@@ -1,5 +1,5 @@
 function [mutual_information] = mutInfo(joint_distribution)
-%% Compute mutual information between two discrete random variables A and B.
+% Compute mutual information between two discrete random variables A and B.
     
     %Marginals for each random variable
     marginals_A = sum(joint_distribution,2); %Rows
