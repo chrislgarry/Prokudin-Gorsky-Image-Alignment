@@ -1,7 +1,6 @@
 function [joint_dist] = jointDistFromImages(image_A, image_B, num_bins)
 %% Map joint pixel values for image_A and image_B into an n*n bin matrix 
     
-    %Keeps executing this at every function call unneccessary
     num_pixels = numel(image_A);
     image_linear_A = reshape(image_A,1,num_pixels);
     image_linear_B = reshape(image_B,1,num_pixels);
